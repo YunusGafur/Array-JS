@@ -23,3 +23,16 @@ let length = superlong.length;
 console.log(superlong.length)
 
 superlong[superlong.length-1] = 1000000;
+
+console.log(fortune.length);
+console.log(fortune[fortune.length - 1]);
+fortune.push("sometimes");
+console.log(fortune[fortune.length - 1]);
+fortune.pop();
+console.log(fortune[fortune.length - 1]);
+
+function printFirstAndThird(arr) {
+    console.log(arr[0]);
+    console.log(arr[2]);
+}
+printFirstAndThird(arr);
